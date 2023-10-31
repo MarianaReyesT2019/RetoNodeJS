@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+  <h1>Formulario de Contacto</h1>
+  <form action="/submit" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br>
+
+    <label for="archivoAdjunto">Archivo Adjunto:</label>
+    <input type="file" name="archivoAdjunto" id="archivoAdjunto" required><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>

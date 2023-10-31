@@ -1,0 +1,11 @@
+body {
+    background-color: #8b1414; /* Color de fondo gris claro */
+  }
+  
+  /* Estilos adicionales para el formulario */
+  form {
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

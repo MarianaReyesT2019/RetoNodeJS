@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Contactos</title>
+</head>
+<body>
+  <h1>Lista de Contactos</h1>
+  <ul>
+    <% contactos.forEach(function(contacto) { %>
+      <li>
+        Nombre: <%= contacto.nombre %><br>
+        Email: <%= contacto.email %><br>
+        Archivo Adjunto: <a href="/uploads/<%= contacto.archivoAdjunto %>">Descargar</a><br>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
